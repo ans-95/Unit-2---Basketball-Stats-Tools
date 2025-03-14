@@ -16,8 +16,6 @@ def clean_data(data):
         cleaned.append(fixed)
     return cleaned 
 
-# print(clean_data(data))
-
 #Create teams with a balanced number of players and player experience 
 def balance_teams(teams,players):
 
@@ -116,4 +114,4 @@ def main():
 if __name__ == "__main__":
     main()
     cleaned = clean_data(PLAYERS)
-    balanced_teams = 
+    balanced_teams = team(TEAMS)
